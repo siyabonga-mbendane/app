@@ -25,6 +25,7 @@ d_today = date.today()
 
 print("=" * 50)
 
+
 do1 = getDate()
 
 print("=" * 50)
@@ -34,6 +35,7 @@ print("Today's Date: ", d_today)
 
 # age calculated
 age = d_today.year - do1.year
+
 
 print("-" * 50)
 print("Your age in years is: ", age)
