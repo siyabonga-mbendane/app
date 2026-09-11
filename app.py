@@ -12,7 +12,7 @@ def getDate():
             birth_date = datetime.strptime(dob, "%Y-%m-%d").date()
 
             if birth_date > date.today():
-                print("Date is in the future! Try again")
+                print("Date provided is in the future! Try again")
                 continue
 
             return birth_date
